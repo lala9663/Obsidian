@@ -22,5 +22,13 @@
       ],
       "key": "F1"
     }
+  ],
+  "obsidian-git:open-git-view": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F7"
+    }
   ]
 }
