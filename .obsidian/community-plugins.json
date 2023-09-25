@@ -4,9 +4,7 @@
   "calendar",
   "periodic-notes",
   "table-editor-obsidian",
-<<<<<<< HEAD
-  "obsidian-style-settings"
-=======
-  "obsidian-excalidraw-plugin"
->>>>>>> origin/main
+  "obsidian-excalidraw-plugin",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-icon-folder"
 ]
