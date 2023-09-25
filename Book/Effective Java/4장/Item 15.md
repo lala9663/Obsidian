@@ -14,5 +14,32 @@
 
 멤버(필드, 메서드, 중첩 클래스, 중첩 인터페이스)에 부여할 수 있는 접근 수준은 4가지)
 - private: 멤버를 선언한 톱레벨 클래스에서만 접근 가능
-- package-private: 멤버가 소속된 패키지 안의 모든 클래스에서 접근 할 수 있다.
-- protected: package-private의 접근 범위를 포함하여, 이 멤버를 선언한 클래스의 하위 클래스에서도 접ㄱ
+- package-private: 멤버가 소속된 패키지 안의 모든 클래스에서 접근 가능
+- protected: package-private의 접근 범위를 포함하여, 이 멤버를 선언한 클래스의 하위 클래스에서도 접근 가능
+- public: 모든 곳에서 접근 가능
+#### private 와 package-private
+
+```
+public class MyClass {
+
+    private int privateField; // private 멤버
+
+    int packagePrivateField; // package-private 멤버
+
+    public void doSomething() {
+        // privateField와 packagePrivateField에 접근 가능
+    }
+}
+```
+
+private 와 package-private 멤버는 모두 해당 클래스의 구현에 해당하므로 보통은 공개 API에 영향을 주지 않는다. 단, Serializable을 구현한 클래스에서는 그 필드들도 의도치 않게 공개 API가 될 수도 있다.[[(아이템 86),(아이템 87)]]
+
+#### public 클래스의 인스턴스 필드는 되도록 public이 아니어야 한다.[[(아이템 16)]]
+
+필드가 가변 객체를 참조하거나, final이 아닌 인스턴스 필드를 public으로 선언하면 그 필드에 담을 수 있는 값을 제한할 힘을 잃게 된다.
+
+public 가변 필드를 갖는 클래스는 일반적으로 스레드에 안전하지 않다.
+
+### 핵심 정리
+
+프로그램 요소의 ㅈ
