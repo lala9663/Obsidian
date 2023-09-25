@@ -1,12 +1,3 @@
 {
-<<<<<<< HEAD
-  "accentColor": "",
-  "cssTheme": "AnuPpuccin",
-  "enabledCssSnippets": [
-    "coler-extend"
-  ]
-=======
-  "accentColor": "#6b70ef",
-  "cssTheme": "Things"
->>>>>>> origin/main
+  "accentColor": ""
 }
