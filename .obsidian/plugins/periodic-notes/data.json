@@ -5,25 +5,26 @@
   "daily": {
     "format": "",
     "template": "",
-    "folder": "Planner/1. Daily",
+    "folder": "TIL/1. Daily",
     "enabled": true
   },
   "weekly": {
     "format": "",
     "template": "",
-    "folder": "Planner/2. Weekly",
+    "folder": "TIL/2. Weekly",
     "enabled": true
   },
   "monthly": {
     "format": "",
     "template": "",
-    "folder": "Planner/3. Monthly",
+    "folder": "TIL/3. Monthly",
     "enabled": true
   },
   "quarterly": {
     "format": "",
     "template": "",
-    "folder": ""
+    "folder": "",
+    "enabled": false
   },
   "yearly": {
     "format": "",

@@ -2,5 +2,8 @@
   "accentColor": "",
   "cssTheme": "Things",
   "textFontFamily": "Consolas",
-  "monospaceFontFamily": "Consolas"
+  "monospaceFontFamily": "Consolas",
+  "enabledCssSnippets": [
+    "coler-extend"
+  ]
 }
