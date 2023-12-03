@@ -5,19 +5,19 @@
   "daily": {
     "format": "",
     "template": "",
-    "folder": "TIL/1. Daily",
+    "folder": "Todo/TIL/1. Daily",
     "enabled": true
   },
   "weekly": {
     "format": "",
     "template": "",
-    "folder": "TIL/2. Weekly",
+    "folder": "Todo/TIL/2. Weekly",
     "enabled": true
   },
   "monthly": {
     "format": "",
     "template": "",
-    "folder": "TIL/3. Monthly",
+    "folder": "Todo/TIL/3. Monthly",
     "enabled": true
   },
   "quarterly": {
@@ -29,7 +29,7 @@
   "yearly": {
     "format": "",
     "template": "",
-    "folder": "",
-    "enabled": false
+    "folder": "Todo/TIL/4. Yearly",
+    "enabled": true
   }
 }

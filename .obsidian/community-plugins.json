@@ -5,5 +5,11 @@
   "periodic-notes",
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-icon-folder",
+  "execute-code",
+  "obsidian-projects",
+  "dataview",
+  "obsidian-kanban",
+  "obsidian-mind-map"
 ]
