@@ -1,9 +1,10 @@
 {
-  "accentColor": "",
+  "accentColor": "#4c57e6",
   "cssTheme": "Things",
   "textFontFamily": "Consolas",
   "monospaceFontFamily": "Consolas",
   "enabledCssSnippets": [
     "coler-extend"
-  ]
+  ],
+  "theme": "obsidian"
 }
