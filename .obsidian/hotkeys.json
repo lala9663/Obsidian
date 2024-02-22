@@ -4,14 +4,6 @@
       "modifiers": [
         "Shift"
       ],
-      "key": "F2"
-    }
-  ],
-  "periodic-notes:open-monthly-note": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
       "key": "F3"
     }
   ],
@@ -29,6 +21,22 @@
         "Shift"
       ],
       "key": "`"
+    }
+  ],
+  "periodic-notes:next-daily-note": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F2"
+    }
+  ],
+  "periodic-notes:open-monthly-note": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F4"
     }
   ]
 }
