@@ -15,14 +15,6 @@
       "key": "F1"
     }
   ],
-  "obsidian-git:open-git-view": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "`"
-    }
-  ],
   "periodic-notes:next-daily-note": [
     {
       "modifiers": [
